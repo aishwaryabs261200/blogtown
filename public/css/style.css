@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Commissioner', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: red;
+}
+
+body {
+  overflow-x: auto;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 1.3em;
+  -webkit-box-shadow: 0 10px 10px -10px red;
+          box-shadow: 0 10px 10px -10px red;
+}
+
+header .logo {
+  color: red;
+}
+
+header .logo:hover {
+  -webkit-animation: flipInX;
+          animation: flipInX;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-delay: 1ms;
+          animation-delay: 1ms;
+  cursor: pointer;
+}
+
+header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header ul li {
+  list-style-type: none;
+  margin: 0 1em;
+}
+
+header ul li a {
+  text-decoration: none;
+}
+
+.home-wrapper .home-main-section {
+  margin: 0.4em;
+  border: 1px solid black;
+  min-height: 360px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 96%;
+  min-width: 450px;
+  padding: 0.5em;
+}
+
+.home-wrapper .home-main-section .main-left {
+  min-height: 340px;
+  min-width: 446px;
+  margin: 0 3px;
+  background: red;
+  height: 200px;
+  width: 30%;
+}
+
+.home-wrapper .home-main-section .main-right {
+  width: 60%;
+  height: 340px;
+  margin: 0 3px;
+  min-width: 446px;
+  background: blue;
+}
+
+.login-container {
+  height: 100vh;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.login-container .login-form {
+  min-width: 480px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.login-container .login-form .login-field {
+  font-size: 1.2rem;
+  padding: .5rem;
+  margin: 0.3em;
+}
+
+.login-container .login-form .login-lable {
+  font-size: 1.3rem;
+}
+
+.login-container .login-form .login-button {
+  background: #228B22;
+  color: #fffffF;
+  font-size: 1.3rem;
+  margin-top: .5rem;
+  padding: .3em;
+  cursor: pointer;
+}
+
+.upload-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100vh;
+}
+
+.upload-container button {
+  padding: 1em;
+  font-size: 1.3rem;
+  color: #fffffF;
+  background-color: #228B22;
+  border: none;
+  cursor: pointer;
+  -webkit-box-shadow: 4px 4px 3px #747070;
+          box-shadow: 4px 4px 3px #747070;
+}
+
+.upload-container button i {
+  margin-right: 1em;
+}
+
+.upload-container button:hover {
+  -webkit-transform: translateX(10px);
+          transform: translateX(10px);
+  -webkit-transform: translateY(-5px);
+          transform: translateY(-5px);
+}
+/*# sourceMappingURL=style.css.map */
